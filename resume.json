@@ -29,19 +29,19 @@
 
     //most of these are optional beside some of the obvious
     "name": "Graeme J. Yeates",
-    "title": "Web Developer/GIS Specialist",
-    "phone": "(647) 215-7372",
-    "contact": "gjyeates@uwaterloo.ca",
-    "portfolio": "www.github.com/megawac",
-    "objective": "Geographic information systems (GIS) internship that allows me to integrate my knowledge of web development and databases with my skills in GIS.",
+    "title": "Data Engineer",
+    "phone": "858-361-6480",
+    "contact": "ericl@simpli.fi",
+    "portfolio": "www.github.com/ericlsimplifi",
+    "objective": "",
     "social": [
         {
-            "link": "https://github.com/megawac",
+            "link": "https://github.com/ericlsimplifi",
             "name": "github.com/megawac"
         },
         {
-            "link": "mail://gjyeates@uwaterloo.ca",
-            "name": "gjyeates@uwaterloo.ca"
+            "link": "mail://ericl@simpli.fi",
+            "name": "ericl@simpli.fi"
         },
         {
             "link": "tel://6472157372",
@@ -56,60 +56,33 @@
     ],
     "projects": [
         {
-            "name": "MutationObserver.js",
-            "technologies": "QUnit, Grunt, Travis CI, PhantomJS, Sauce Labs",
-            "description": "Created a (reasonably) compliant and well optimized shim of the HTML5 MutationObserver using a novel tree reconciliation algorithm. Created 50+ QUnit tests for the polyfill."
+            "name": "Facebook",
+            "technologies": "Sql, Airflow (some Python)",
+            "description": "Created teh ETL and DDL and Airflow jobs to load Facebook data in the reporting data warehouse."
         },
-        {
-            "name": "QwebIRC",
-            "technologies": "Mootools, Twitter Bootstrap, Epitome MVC, Handlebars, Grunt, socket.io, underscore, CSS3, HTML5",
-            "description": "QwebIRC is a free, open source AJAX instant relay chat (IRC) client designed to be simple, feature-rich, and intuitive. I've improved the extensibility and functionality of the original QwebIRC project by abstracting the browser hacks to frameworks and modules, rewriting the entire user interface (UI) in templated Views, decoupling of the IRC client from the UI and making the code DRY by extending the utility module. The changes have removed unnessary relationships and made adding features less trivial."
-        },
-        {
-            "name": "Node WebIRC",
-            "technologies": "socket.io, Express, underscore",
-            "description": "An IRC Connection backend for the QwebIRC AJAX client. This project is responsible for serving files to the AJAX client and establishing IPv4 or IPv6 connections to a set IRC server and serve data via socket.io."
-        },
-        {
-            "name": "Python WebIRC",
-            "technologies": "Twisted, Zope Interface",
-            "description": "Simplified the Iris/QwebIRC python server and implemented the Ident dameon protocol for connecting to some IRC servers."
-        },
-        {
-            "name": "Epitome MVC",
-            "technologies": "Mootools, BusterJS",
-            "description": "Contributor to the framework. Improved the functionality of model properties and provided two solutions to passing events with an array in the arguments"
-        }
+        
     ],
     "experience": [
         {
-            "company": "CESI Environment Canada",
-            "link": "http://maps-cartes.ec.gc.ca/indicators-indicateurs",
-            "title": "Geomatics Applications Developer",
+            "company": "Simplifi",
+            "link": "http://https://simpli.fi/",
+            "title": "Data Engineer",
             "startDate": "January 2013",
             "endDate": "May 2013",
-            "technologies": "ASP.net, VB, SQL, ArcGIS SDKs, ArcGIS Online, jQuery, dojo, CSS3, HTML5",
-            "responsibilities": "Created various AJAX service end points and developed administration pages in ASP.NET. Refined the processes of merging contents of a client's file geodatabases into the CESI Microsoft SQL server database. Refactored the air toxics and emissions indicator 'data entities' and added new layers data validation.",
-            "achievements": "Participated in a group in a working group responsible for creating a standard web mapping platform (RAMP) for various CESI projects. Mainly worked on implementing localization and transfering state data. Removed serious security holes in the public web services."
-        }, {
-            "company": "Casgrain & Company Limited",
-            "title": "IT Intern",
-            "startDate": "May 2012",
-            "endDate": "August 2012",
-            "technologies": "Java, SQL",
-            "responsibilities": "Built custom, data driven financial applications using Java for coworkers. These applications had to keep up to date with multiple, periodically updated SQL databases on different servers. Respond to technical questions and provide solutions to problems.",
-            "achievements": "Commensed merge of a relatively large Microsoft Access 2000 database into a database in the main Microsoft SQL 2005 server. Created and maintained several SQL databases."
-        }
+            "technologies": "",
+            "responsibilities": "",
+            "achievements": ""
+        }, 
     ],
     "education": [
         {
-            "institute": "University of Waterloo",
-            "startDate": "2011",
-            "endDate": "present",
-            "program": "Geomatics with Computer Science minor",
-            "achievements": "Dean's list from 2011-2012"
+            "institute": "San Diego State University",
+            "startDate": "1996",
+            "endDate": "2002",
+            "program": "Computer Science",
+            "achievements": ""
         }
     ],
     "lastupdate": "15-01-2013",
-    "resume": "http://megawac.github.io"
+    "resume": "http://ericl.github.io"
 }
